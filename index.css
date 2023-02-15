@@ -5,7 +5,12 @@
 }
 
 header{
-    background-color: orangered;
+    background-color: rgb(17, 16, 16);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
 }
 
 li{
@@ -54,6 +59,16 @@ a{
     background-color: white;
 }
 
+.hero{
+    background-color: aliceblue;
+    padding: 150px 140px;
+}
+
+.hero p,h3{
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
 @media(max-width:768px){
     .space{
         display:block;
