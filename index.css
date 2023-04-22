@@ -73,6 +73,10 @@ a{
     padding: 5px;
     margin: 3px;
 }
+.img{
+    background-color: red;
+    padding: 4px;
+}
 @media(max-width:768px){
     .space{
         display:block;
